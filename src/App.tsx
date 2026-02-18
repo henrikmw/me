@@ -2,8 +2,6 @@ import cvbilde from "./assets/cvbilde.jpg";
 import geomatikk from "./assets/geomatikk.png"
 import miljodirektoratet from "./assets/miljodirektoratet.png"
 import {
-  Github,
-  Linkedin,
   Mail,
 } from "lucide-react";
 
@@ -20,7 +18,7 @@ const items = [
     isImage: true,
     title: "Miljøvedtaksregisteret",
     description:
-      "Miljødirektoratet har fått utviklet en brukervennlig løsning for registrering av og innsyn i enkeltvedtak og forskrifter på miljøområdet. Med en slik løsning har publikum selvbetjent tilgang til offentlig informasjon, og slipper å henvende seg til Miljødirektoratet for innsyn i enkeltvedtak. Tidsbesparende for både direktoratet og for publikum.",
+      "Miljødirektoratet har fått utviklet en brukervennlig løsning for registrering av og innsyn i forskrifter. . Tidsbesparende for både direktoratet og for publikum.",
   },
   {
     icon: miljodirektoratet,
@@ -35,12 +33,6 @@ const items = [
     title: "Fallvilt",
     description:
       "Contributing to open-source projects and sharing knowledge with the community.",
-  },
-  {
-    icon: Linkedin,
-    title: "Networking",
-    description:
-      "Collaborating with professionals and building meaningful products.",
   },
   {
     icon: Mail,
